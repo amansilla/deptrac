@@ -53,5 +53,6 @@
             <argument type="service" id="collector_factory"/>
         </service>
 
+        <service id="command_self_update" class="SensioLabs\Deptrac\Command\SelfUpdateCommand" />
     </services>
 </container>
