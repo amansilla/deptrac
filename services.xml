@@ -53,5 +53,13 @@
             <argument type="service" id="collector_factory"/>
         </service>
 
+        <service id="httpclient" class="GuzzleHttp\Client" />
+
+        <service id="filesystem" class="Symfony\Component\Filesystem\Filesystem" />
+
+        <service id="command_self_update" class="SensioLabs\Deptrac\Command\SelfUpdateCommand">
+            <argument type="service" id="filesystem"/>
+            <argument type="service" id="httpclient"/>
+        </service>
     </services>
 </container>
