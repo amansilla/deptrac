@@ -15,7 +15,8 @@
         "symfony/config": "^2.7",
         "symfony/event-dispatcher": "^2.7",
         "symfony/options-resolver": "^2.7",
-        "sensiolabs-de/astrunner": "dev-master"
+        "sensiolabs-de/astrunner": "dev-master",
+        "padraic/phar-updater": "^1.0"
     },
     "authors": [
         {
