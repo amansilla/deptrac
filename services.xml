@@ -21,6 +21,10 @@
             <tag name="output_formatter"/>
         </service>
 
+        <service id="output_formatter_junit" class="SensioLabs\Deptrac\OutputFormatter\JunitOutputFormatter">
+            <tag name="output_formatter"/>
+        </service>
+
         <service id="command_init" class="SensioLabs\Deptrac\Command\InitCommand"/>
 
         <service id="ruleset_engine" class="SensioLabs\Deptrac\RulesetEngine"/>
